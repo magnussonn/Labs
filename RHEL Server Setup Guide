@@ -1,0 +1,20 @@
+# RHEL Server Setup Guide
+
+This project provides scripts and diagrams to help you set up a Red Hat Enterprise Linux server with basic configuration, including:
+
+- SSH access
+- Firewall configuration
+- Apache web server installation
+
+## 📷 Architecture Diagrams
+
+- [Server Architecture](images/rhel-architecture-diagram.png)
+- [Apache Service Flow](images/apache-service-flow.png)
+- [Firewall Port Map](images/firewall-ports.png)
+
+## 🚀 Quick Start
+
+```bash
+cd scripts
+bash setup.sh
+bash firewall.sh
