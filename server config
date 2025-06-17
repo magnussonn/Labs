@@ -1,0 +1,5 @@
+## Red Hat Server Configuration
+
+### 1. Update System
+```bash
+sudo yum update -y
