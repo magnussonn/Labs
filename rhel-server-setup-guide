@@ -1,0 +1,11 @@
+rhel-server-setup-guide/
+├── README.md
+├── images/
+│   ├── rhel-architecture-diagram.png
+│   ├── apache-service-flow.png
+│   └── firewall-ports.png
+├── scripts/
+│   ├── setup.sh
+│   └── firewall.sh
+└── docs/
+    └── server-configuration.md
