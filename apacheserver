@@ -1,0 +1,20 @@
+Apaceserver/Configure firewall / enable SSH
+
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+
+sudo firewall-cmd --permanent --add-service=http
+sudo firewall-cmd --reload
+
+sudo systemctl start sshd
+sudo systemctl enable sshd
+
+
+
+---
+
+---
+
+
